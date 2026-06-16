@@ -1,4 +1,6 @@
-habits = []
+from storage import save_habits, load_habits
+
+habits = load_habits()
 
 while True:
     print("\nHabit Tracker")
