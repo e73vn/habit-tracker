@@ -10,10 +10,11 @@ while True:
 
     choice = input("> ")
 
-    if choice == "1":
-        habit = input("New habit: ")
-        habits.append(habit)
-        print("Added!")
+if choice == "1":
+    habit = input("New habit: ")
+    habits.append(habit)
+    save_habits(habits)
+    print("Added!")
 
     elif choice == "2":
         for habit in habits:
