@@ -1,2 +1,2 @@
-# habittracker
+# habit-tracker
 habit tracker
